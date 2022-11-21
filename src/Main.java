@@ -23,13 +23,18 @@ public class Main {
             System.out.println("Not prime");
         }
     }
+    public static void evenOrNot(int i){
+        if(i%2==0){
+            System.out.println("Even no");
+        }
+        else{
+            System.out.println("No Not even");
+        }
+    }
 
     public static void main(String[] args) {
 
         System.out.println("Hello world!");
 
-
-
-
-    }
+           }
 }
