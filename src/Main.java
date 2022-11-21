@@ -28,7 +28,7 @@ public class Main {
             System.out.println("Even no");
         }
         else{
-            System.out.println("Not even");
+            System.out.println("No Not even");
         }
     }
 
