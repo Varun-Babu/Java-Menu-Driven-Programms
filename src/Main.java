@@ -9,9 +9,25 @@ public class Main {
         int b = Math.min(a,k);
         return b;
     }
+    public static void primeOrNot(int j){
+        int flag =0;
+        for(int i =1; i<=j; i++){
+            if(j%i == 0){
+                flag ++;
+            }
+        }
+        if(flag==2){
+            System.out.println("Prime");
+        }
+        else {
+            System.out.println("Not prime");
+        }
+    }
+
     public static void main(String[] args) {
 
         System.out.println("Hello world!");
+
 
 
 
